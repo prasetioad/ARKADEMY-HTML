@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('./source/Group7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    color: #FFFFFF;
+    height: 1024px;
+    width: 800px;
+}
+
+header p {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 46px;
+}
+
+.image{
+    background-image: url('./source/Rectangle.png');
+    text-align: center;
+    height: 1024px;
+    width: 800px;
+    opacity: 1;
+}
+
+.logo {
+    display: none;
+    position: relative;
+    bottom: 40px;
+    margin: 0;
+}
+.content{
+   padding-left: 150px;
+    width: 500px;
+    height: 190px;
+    padding-top: 383px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    color: #AAAAAA;
+}
+
+.line hr{   
+    color: #DEDEDE;
+    width: 35%;
+    height: 0%;
+    margin-top: 7px;
+}
+
+
+.main-left{
+    padding-top: 150px;
+    padding-left: 83px ;
+    padding-right: 83px;
+}
+
+.sign{
+    font-size: 18px;
+    letter-spacing: 0.007em;
+    font-family: 'Inter' , sans-serif;
+    color: #AAAAAA;
+}
+
+.sign p {
+    padding-top: 12px;
+}
+
+.signin {
+    line-height: 58px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: #121212;
+}
+
+form {
+    padding-top: 49px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    
+}
+
+form p {
+    line-height: 20px;
+    color: #4E4B66;
+    padding-bottom: 12px;
+    width: 41px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.box{
+    background: #FCFDFE;
+/* Border and Line */
+    height: 64px;
+    width: 400px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-left: 24px;
+    letter-spacing: 0.75px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.pass{
+    padding-top: 26px;
+}
+.eye{
+    position: relative;
+   top: -40px;
+   right: -360px;
+}
+.eye1{
+    position: relative;
+    top: -44px;
+    right: -342px;
+
+}
+
+.btn{
+    margin-top:48px ;
+    width: 400px;
+    height: 64px;
+    background: #5F2EEA;
+    border-radius: 16px;
+    border-style: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color:  #F7F7FC;
+}
+
+.reset{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    padding-top: 32px;
+    text-align: center;
+    color: #8692A6;
+    padding-bottom: 48px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    width: 182px;
+    height: 64px;
+    text-align: center;
+    
+}
+
+footer {
+    padding-top: 48px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+.pl {
+   padding-top: 21px;
+   padding-left: 4px;
+   color: #A0A3BD;
+   
+
+}
+
+footer a{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+.container{
+    width: 375px;
+    height: 812px;
+    
+}
+
+
+
+    .image{
+        display: none;
+    }
+    .main-left{
+        padding-top:110px ;
+        padding-left: 24px ;
+        padding-right: 24px;
+
+    }
+
+    .logo {
+        display: flex;
+        position: relative;
+        bottom: 40px;
+        margin: 0;
+    }
+
+    .sign{
+        letter-spacing: 0.5%;
+        font-family: 'Inter' , sans-serif;
+        color: #AAAAAA;
+    }
+    .signin{
+        font-size: 26px;
+    }
+    
+    .p {
+        display: none;
+    }
+
+    .box{
+        background: #FCFDFE;
+    /* Border and Line */
+        height: 64px;
+        width: 327px;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding-left: 24px;
+        letter-spacing: 0.75px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .eye{
+    display: none;
+    }
+    .eye1{
+        display: none;
+    }
+    .btn{
+        margin-top:48px ;
+        width: 327px;
+        height: 64px;
+        background: #5F2EEA;
+        border-radius: 4px;
+        border-style: none;
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        color:  #F7F7FC;
+    }
+    .reset{
+        font-family: 'Mulish',sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 19.36px;
+        letter-spacing: 0.5%;
+        padding-top: 32px;
+        color: #8692A6;
+        padding-bottom: 48px;
+    }
+
+    .line{
+        display: flex;
+        justify-content: space-between;
+        color: #AAAAAA;
+    }
+
+    .line hr{   
+        color: #DEDEDE;
+        width: 35%;
+        height: 0%;
+        margin-top: 7px;
+    }
+    
+    .card{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        width: 64px;
+        height: 64px;
+        text-align: center;
+        
+    }
+
+    .card p {
+        display: none;
+    }
+
+}

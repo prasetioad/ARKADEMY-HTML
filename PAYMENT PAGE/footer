@@ -1,0 +1,42 @@
+ <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            <img src="./source/Logo.png" alt="">
+            <p>Stop waiting in line. Buy tickets <br>
+              conveniently, watch movies quietly.</p>
+          </div>
+          <div class="footer-right">
+            <div class="left-one sett"> 
+              <p class="foot-title">Explore</p>
+              <li>
+                <a href="" class="foot-right-item">Cinemas</a>
+              </li>
+              
+              <li>
+                <a href="" class="foot-right-item">Movies List</a>
+              </li>
+              <li>
+                <a href="" class="foot-right-item">My Tickets</a>
+              </li>
+              <li>
+                <a href="" class="foot-right-item">Notification</a>
+              </li>
+            
+            </div>
+            <div class="left-two sett"> 
+              <p class="foot-title">Our Sponsor</p>
+              <img src="./source/ebu.png" alt="ebu.id">
+              <img src="./source/Cine.png" alt="CineOne21">
+              <img src="./source/hiflix.png" alt="hiflix">
+            </div>
+            <div class="left-three sett">
+              <p class="foot-title">Follow us</p>
+              <a href=""><img src="./source/fb.png" alt="Facebook">Tickitz Cinema id</a> <br>
+              <a href=""><img src="./source/ig luar.png" alt="Facebook">tickitz.id</a> <br>
+              <a href=""><img src="./source/twit.png" alt="Facebook">tickitz.id</a><br>
+              <a href=""><img src="./source/ytluar.png" alt="Facebook">Tickitz Cinema id</a>
+            </div>
+          </div>
+        </div>
+        <p class="copyright" style="margin-bottom: 47.4px;">© 2020 Tickitz. All Rights Reserved.</p>
+      </footer>

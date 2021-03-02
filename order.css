@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+    height: 104px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #414141;
+}
+
+.wrapper{
+    padding-top: 36.57px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+}
+
+.logo{
+    display: flex;
+}
+
+.nav1 ul{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.nav1 ul li{
+    display: inline-block;
+    padding-left: 56px;
+}
+
+.nav1 ul li a {
+    color:#414141;
+}
+
+
+.nav>li>a {
+    padding-top: 7px !important;
+    padding-bottom: 5px !important;
+    color:#414141;
+}
+
+.nav i{
+    padding-top: 10px;
+    padding-left: 46.81px;
+    padding-right: 51.29px;
+}
+
+.pict{
+    position: relative;
+    bottom: 10px;
+    width: 56px;
+    height: 56px;
+}
+/* BATAS NAVBAR */
+
+main{
+    display: flex;
+    justify-content:  center;
+    background: #EFF0F7;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 67.86% 32.13%;
+    width: 89.75%;
+    margin-top: 56px;
+}
+
+.main-left {
+    display: grid;
+    grid-template-rows: 18.78% 79.2%;
+    height: 80vw; /* PERLU ganti KE VW*/
+}
+
+.left-head{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #14142B;
+}
+
+.left-head .choosen {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 24px;
+    padding:35px 59.1px 35px 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.left-head .choosen p a{
+    font-weight: bold;
+    font-size: 14px;
+    color: #5F2EEA !important;
+    background: #EFF0F7;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.lb1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #14142B;
+}
+
+.map{
+    align-items: center;
+    width: 820px;
+    height: 661px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #4E4B66;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding-top: 80px;
+    padding-bottom: 26px;
+}
+
+
+
+.map .spot {
+    margin-top: 30px;
+    width: 556px;
+    height: 320px;
+}
+
+.map .spot .spoting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.spot .spot-left{
+    display: flex;
+    justify-content: space-between;
+    padding :2px;
+}
+
+.spot .icon-book{
+    padding: 2px;
+}
+
+.spot-left .row .box{
+    border-radius: 4px;
+}
+
+.spot .spot-right{
+    display: flex;
+    justify-content: space-between;
+    padding :2px;
+}
+/* BATAS MAP KOTAK KOTAK */
+
+.map-bot{
+    margin: 20px;
+    width: 68%;
+}
+
+.map-bot p{
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 34px;
+   letter-spacing: 0.75px;
+   color:black ;
+}
+
+.key{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.key p{
+    letter-spacing: 0.75px;
+    color: #4E4B66 !important;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.left-bot .btn{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+    color:  #5F2EEA;
+
+}
+
+.left-bot .btn a{
+    border: 2px solid #5F2EEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 300px;
+    padding: 10px 50px;
+    border-radius: 4px;
+    
+}
+
+.left-bot .btn .change {
+    color: #5F2EEA !important;
+}
+
+.left-bot .btn .checkout{
+    background:#5F2EEA ;
+    color:  #F7F7FC !important;
+}
+/* MAIN LEFT SELESAI */
+/* MAIN RIGHT */
+
+.main-right{
+    width: 382px;
+    height: 413px;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.order-info{
+    text-align: center;
+    background: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.order-info .cinema {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color:  #14142B;
+}
+
+.order-info .detil {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 5px 30px;
+    
+}
+
+
+.order-info .detil .d1{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #6B6B6B;
+}
+
+.order-info .detil .d2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #14142B;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order-info .pay {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.order-info .pay .p1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: black;
+}
+
+.order-info .pay .p2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #5F2EEA;
+}
+
+
+
+
+/* BATAS MAIN */
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-top: 2vw;
+    font-family: 'Mulish',sans-serif;
+    font-size: 18px;
+    height: 25vw;
+}
+
+.footer-left{
+    margin-top: 5vw;
+    margin-left: 130.5px; 
+}
+.footer-left img{
+    height: 3.5vw;
+}
+
+.footer-left p {
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.footer-right{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 88px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    
+}
+
+
+.sett {
+    margin-top: 6vw;
+
+}
+
+.foot-title{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+   
+}
+.sett li {
+    list-style-type: none;
+    padding:  7.3px;
+}
+
+li a {
+    font-size: 14px;
+    color: #4E4B66;
+}
+
+.left-two img{
+    display: block;
+    padding: 12px ;
+}
+
+.left-three img{
+    padding: 14px 14px;
+    margin-left: 0;
+    
+}
+a {
+    color: #6E7191 !important;
+    font-style: none;
+}
+
+
+.copyright {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    /* Text - Body */
+
+    color: #4E4B66;
+}
